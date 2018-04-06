@@ -62,7 +62,7 @@ header > nav img {
     padding: 20px 60px;
 }
 
-nav ul {
+header nav ul {
     list-style-type: none;
     float: right;
     padding: 20px 0px;
@@ -71,11 +71,11 @@ nav ul {
     font-weight: bold;
 }
 
-nav ul li {
+header nav ul li {
     display: inline-block;
 }
 
-nav ul li a {
+header nav ul li a {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -479,5 +479,83 @@ nav ul li a {
 }
 
 .hyphen::after {
+    content: '';
+}
+
+.our-project {
+    background-color: #f7f7f7;
+}
+
+.our-project h2 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.our-project h5 {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: #aeaeae;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.our-project nav {
+    display: block;
+    margin: 0 auto;
+    background-color: #ededed;
+    border: 1px solid #cfcfcf;
+    border-radius: 25px;
+    padding: 0;
+    width: 714px;
+    text-align: center;
+}
+
+.our-project nav ul {
+    list-style-type: none;
+    padding: 20px 0px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+.our-project nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.our-project nav ul li a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    width: 115px;
+}
+
+.project_link::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 58px;
+    background-color: #bebebe;
+    position: absolute;
+    top: 2005px;
+}
+
+.project_link::after {
     content: '';
 }
