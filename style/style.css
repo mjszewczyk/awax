@@ -559,3 +559,53 @@ header nav ul li a {
 .project_link::after {
     content: '';
 }
+
+.images {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.images img {
+    width: 80%;
+    height: 80%;
+}
+
+.description {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.description h3 {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -120px;
+}
+
+.description p {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: #fff;
+    text-align: center;
+}
+
+.images:hover .description {
+    opacity: 1;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.logos {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logos img {
+    height: 40%;
+    width: 40%;
+    margin: 30px 40px;
+    padding: 0;
+}
