@@ -595,7 +595,7 @@ header nav ul li a {
 
 .description {
     position: absolute;
-    top: 180px;
+    top: 0;
     left: 0;
     width: 95%;
     height: 95%;
@@ -604,13 +604,19 @@ header nav ul li a {
     opacity: 0;
 }
 
+.description h3,
+.description p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .description h3 {
     font-size: 18px;
     font-family: "Montserrat";
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    margin-top: -120px;
 }
 
 .description p {
