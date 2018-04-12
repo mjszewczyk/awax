@@ -282,6 +282,7 @@ header nav ul li a {
 
 .col-lg-4 {
     width: 33.33%;
+    background-color: aquamarine;
 }
 
 .col-lg-5 {
@@ -484,6 +485,7 @@ header nav ul li a {
 
 .our-project {
     background-color: #f7f7f7;
+    height: 100%;
 }
 
 .our-project h2 {
@@ -516,9 +518,9 @@ header nav ul li a {
     border: 1px solid #cfcfcf;
     border-radius: 25px;
     padding: 0;
-    width: 714px;
     text-align: center;
     margin-bottom: 40px;
+    width: 720px;
 }
 
 .our-project nav ul {
@@ -534,7 +536,6 @@ header nav ul li a {
 
 .our-project nav ul li {
     display: inline-block;
-    text-align: center;
 }
 
 .our-project nav ul li a {
@@ -543,15 +544,8 @@ header nav ul li a {
     text-decoration: none;
     padding: 0;
     text-align: center;
-    margin: 0;
+    margin-left: 0;
     width: 115px;
-}
-
-.project-list {
-    display: inline-block;
-    font-size: 14px;
-    padding: 0;
-    margin: 0 auto;
 }
 
 .our-line::after {
@@ -563,8 +557,8 @@ header nav ul li a {
     margin: 0 auto;
     height: 5px;
     background-color: #b88b58;
-    padding-right: 10px;
-    width: 60%;
+    padding: 0;
+    width: 80%;
 }
 
 .project-list:hover .our-line::after {
@@ -594,11 +588,12 @@ header nav ul li a {
 }
 
 .description {
+    flex-direction: column;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 2.5%;
     width: 95%;
-    height: 95%;
+    height: 98%;
     margin: 0;
     padding: 0;
     opacity: 0;
@@ -613,6 +608,9 @@ header nav ul li a {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
 }
 
 .description p {
@@ -620,6 +618,8 @@ header nav ul li a {
     font-family: "Montserrat";
     color: #fff;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .images:hover .description {
@@ -642,8 +642,44 @@ header nav ul li a {
     text-align: center;
     display: block;
     margin: 0 auto;
+    margin-bottom: 50px;
     padding: 0;
-    margin-bottom: 60px;
+}
+
+.our-team {
+    background-color: #000;
+    background-image: url("../images/bg_team.png");
+    background-size: cover;
+}
+
+.our-team h2 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.our-team h3 {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #aeaeae;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.team-one,
+.team-two,
+.team-three {
+    text-align: center;
 }
 
 .logos {
