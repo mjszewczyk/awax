@@ -676,6 +676,10 @@ header nav ul li a {
 }
 
 .team-one {
+    padding: 0 38px;
+}
+
+.teams {
     background-color: #fff;
     margin: 0 auto;
     width: 80%;
@@ -683,6 +687,8 @@ header nav ul li a {
 
 .team-one img {
     padding-top: 30px;
+    display: block;
+    margin: 0 auto;
 }
 
 .logos {
