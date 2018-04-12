@@ -282,7 +282,6 @@ header nav ul li a {
 
 .col-lg-4 {
     width: 33.33%;
-    background-color: aquamarine;
 }
 
 .col-lg-5 {
@@ -676,10 +675,14 @@ header nav ul li a {
     padding: 0;
 }
 
-.team-one,
-.team-two,
-.team-three {
-    text-align: center;
+.team-one {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.team-one img {
+    padding-top: 30px;
 }
 
 .logos {
