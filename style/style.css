@@ -675,13 +675,31 @@ header nav ul li a {
     padding: 0;
 }
 
-.team-one {
-    padding: 0 38px;
+.worker h3 {
+    font-size: 21px;
+    font-family: "Montserrat";
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.worker p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(36, 36, 36);
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
 }
 
 .teams {
     background-color: #fff;
     margin: 0 auto;
+    margin-bottom: 40px;
     width: 80%;
 }
 
@@ -689,6 +707,113 @@ header nav ul li a {
     padding-top: 30px;
     display: block;
     margin: 0 auto;
+}
+
+.team-two img {
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.team-three img {
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.team-social {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.fa-icon {
+    border-radius: 50%;
+    background-color: rgb(190, 190, 190);
+    padding-top: 8px;
+    width: 33px;
+    height: 33px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.fa:hover {
+    background-color: #b88b58;
+}
+
+.clients {
+    background-color: #f7f7f7;
+}
+
+.clients h2 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.clients h3 {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #aeaeae;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.client img {
+    display: block;
+    margin: 0 auto;
+}
+
+.client h2 {
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.client h3 {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.opinion img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.opinion {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(126, 126, 126);
+    text-align: center;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.clients .circle {
+    margin: 40px auto;
 }
 
 .logos {
@@ -699,6 +824,6 @@ header nav ul li a {
 .logos img {
     height: 40%;
     width: 40%;
-    margin: 30px 40px;
+    margin: 40px 40px 20px 40px;
     padding: 0;
 }
