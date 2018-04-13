@@ -391,6 +391,7 @@ header nav ul li a {
 
 .about-us button:hover {
     background-color: #fff;
+    border: #fff;
     color: #000;
     transform: scale(1.2);
     margin-left: 50px;
@@ -510,7 +511,7 @@ header nav ul li a {
     padding-bottom: 50px;
 }
 
-.our-project nav {
+.project-nav {
     display: block;
     margin: 0 auto;
     background-color: #ededed;
@@ -519,12 +520,12 @@ header nav ul li a {
     padding: 0;
     text-align: center;
     margin-bottom: 40px;
-    width: 720px;
+    width: 714px;
 }
 
-.our-project nav ul {
+.project-lists {
     list-style-type: none;
-    padding: 20px 0px;
+    padding: 20px 0;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -533,18 +534,13 @@ header nav ul li a {
     text-align: center;
 }
 
-.our-project nav ul li {
+.project-list {
     display: inline-block;
 }
 
-.our-project nav ul li a {
-    display: inline-block;
+.project-list a {
     color: #000;
     text-decoration: none;
-    padding: 0;
-    text-align: center;
-    margin-left: 0;
-    width: 115px;
 }
 
 .our-line::after {
@@ -557,7 +553,6 @@ header nav ul li a {
     height: 5px;
     background-color: #b88b58;
     padding: 0;
-    width: 80%;
 }
 
 .project-list:hover .our-line::after {
@@ -643,6 +638,13 @@ header nav ul li a {
     margin: 0 auto;
     margin-bottom: 50px;
     padding: 0;
+    transition: .5s;
+}
+
+.gallery-button:hover {
+    background-color: #000;
+    border: #000;
+    transform: scale(1.2);
 }
 
 .our-team {
@@ -816,6 +818,10 @@ header nav ul li a {
     margin: 40px auto;
 }
 
+.circ:hover {
+    background-color: #b88b58;
+}
+
 .logos {
     width: 80%;
     margin: 0 auto;
@@ -826,4 +832,70 @@ header nav ul li a {
     width: 40%;
     margin: 40px 40px 20px 40px;
     padding: 0;
+}
+
+.price {
+    background-color: #f7f7f7;
+}
+
+.price h2 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.price h3 {
+    color: #aeaeae;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Montserrat";
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.price-offer {
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+.price-one {
+    display: block;
+    margin: 0 auto;
+}
+
+.price-two {
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.price-three {
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.price-four {
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.price-type {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
 }
