@@ -458,6 +458,21 @@ header nav ul li a {
     margin-bottom: 80px;
 }
 
+.services .hyphen {
+    border-right: 1px solid #fff;
+}
+
+.services-offer {
+    height: 300px;
+    margin-top: 40px;
+}
+
+.services .hyphen-left {
+    border-left: 1px solid #fff;
+}
+
+
+/*
 .hyphen::before {
     content: '';
     display: block;
@@ -478,10 +493,13 @@ header nav ul li a {
     top: 1585px;
     right: 70px;
 }
+*/
 
+
+/*
 .hyphen::after {
     content: '';
-}
+}*/
 
 .our-project {
     background-color: #f7f7f7;
@@ -525,7 +543,6 @@ header nav ul li a {
 
 .project-lists {
     list-style-type: none;
-    padding: 20px 0;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -536,11 +553,15 @@ header nav ul li a {
 }
 
 .project-list {
+    height: 100%;
     display: inline-block;
     border-left: 1px solid #cfcfcf;
-    padding: 0 20px;
+    padding: 20px 20px;
     margin: 0;
-    height: 100%;
+}
+
+.project-list:nth-child(1) {
+    border: none;
 }
 
 .project-list a {
@@ -895,6 +916,57 @@ header nav ul li a {
     font-family: "Montserrat";
     color: rgb(36, 36, 36);
     text-transform: uppercase;
-    line-height: 1.5;
     text-align: center;
+}
+
+.price-cost {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.price-month {
+    font-size: 10px;
+    font-family: "Montserrat";
+    color: rgb(174, 174, 174);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.price-offer {
+    list-style-type: none;
+}
+
+.offer-price {
+    font-size: 10px;
+    font-family: "Montserrat";
+    color: rgb(126, 126, 126);
+    text-align: center;
+}
+
+.offer-line {
+    border-bottom: 1px solid #000;
+}
+
+.price-button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #373737;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 129px;
+    height: 45px;
+}
+
+.price-button:hover {
+    background-color: #b88b58;
 }
