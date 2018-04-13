@@ -532,20 +532,29 @@ header nav ul li a {
     text-transform: uppercase;
     margin: 0;
     text-align: center;
+    height: 60px;
 }
 
 .project-list {
     display: inline-block;
-    border: 1px solid #cfcfcf;
+    border-left: 1px solid #cfcfcf;
+    padding: 0 20px;
+    margin: 0;
+    height: 100%;
 }
 
 .project-list a {
     color: #000;
     text-decoration: none;
+    padding-bottom: 16px;
+}
+
+.project-list a:hover {
+    border-bottom: 5px solid #b88b58;
 }
 
 
-
+/*
 .our-line::after {
     content: '';
     display: block;
@@ -557,6 +566,7 @@ header nav ul li a {
     background-color: #b88b58;
     padding: 0;
 }
+*/
 
 .project-list:hover .our-line::after {
     visibility: visible;
