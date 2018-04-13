@@ -536,12 +536,15 @@ header nav ul li a {
 
 .project-list {
     display: inline-block;
+    border: 1px solid #cfcfcf;
 }
 
 .project-list a {
     color: #000;
     text-decoration: none;
 }
+
+
 
 .our-line::after {
     content: '';
@@ -559,6 +562,8 @@ header nav ul li a {
     visibility: visible;
 }
 
+
+/*
 .project-link::before {
     content: '';
     display: block;
@@ -568,6 +573,7 @@ header nav ul li a {
     position: absolute;
     top: 2005px;
 }
+*/
 
 .images {
     text-align: center;
@@ -864,28 +870,11 @@ header nav ul li a {
 .price-offer {
     background-color: #fff;
     margin: 0 auto;
-    margin-bottom: 10px;
-    width: 25%;
+    margin-bottom: 40px;
+    width: 80%;
 }
 
-.price-one {
-    display: block;
-    margin: 0 auto;
-}
-
-.price-two {
-    padding-top: 30px;
-    display: block;
-    margin: 0 auto;
-}
-
-.price-three {
-    padding-top: 30px;
-    display: block;
-    margin: 0 auto;
-}
-
-.price-four {
+.team-one img {
     padding-top: 30px;
     display: block;
     margin: 0 auto;
