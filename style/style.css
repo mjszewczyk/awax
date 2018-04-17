@@ -865,14 +865,16 @@ header nav ul li a {
 }
 
 .logos img {
-    height: 40%;
-    width: 40%;
-    margin: 40px 40px 20px 40px;
+    height: 60%;
+    width: 60%;
+    margin: 40px 40px 40px 40px;
     padding: 0;
 }
 
 .price {
     background-color: #f7f7f7;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
 .price h2 {
@@ -895,14 +897,21 @@ header nav ul li a {
     font-size: 14px;
     font-family: "Montserrat";
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .price-offer {
     background-color: #fff;
     margin: 0 auto;
-    margin-bottom: 40px;
     width: 80%;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 10px;
+    font-family: "Montserrat";
+    color: rgb(126, 126, 126);
+    text-align: center;
 }
 
 .team-one img {
@@ -917,6 +926,9 @@ header nav ul li a {
     color: rgb(36, 36, 36);
     text-transform: uppercase;
     text-align: center;
+    font-weight: 500;
+    padding-top: 30px;
+    margin: 0;
 }
 
 .price-cost {
@@ -926,6 +938,8 @@ header nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
 .price-month {
@@ -934,21 +948,22 @@ header nav ul li a {
     color: rgb(174, 174, 174);
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-.price-offer {
-    list-style-type: none;
+.offer-line::after {
+    content: '—';
+    display: block;
+    margin-top: 4px;
 }
 
-.offer-price {
-    font-size: 10px;
-    font-family: "Montserrat";
-    color: rgb(126, 126, 126);
-    text-align: center;
+.offer-line:last-of-type {
+    margin: 0;
 }
 
-.offer-line {
-    border-bottom: 1px solid #000;
+.offer-line:last-of-type::after {
+    display: none;
 }
 
 .price-button {
@@ -965,8 +980,125 @@ header nav ul li a {
     text-transform: uppercase;
     width: 129px;
     height: 45px;
+    padding: 0;
 }
 
 .price-button:hover {
     background-color: #b88b58;
+}
+
+.premium-btn img {
+    display: block;
+    margin: 0 auto;
+    max-width: 388px;
+}
+
+.premium-one img {
+    text-align: left;
+}
+
+.premium-two img {
+    margin-top: 175px;
+}
+
+.premium-three img {
+    margin-top: 40px;
+}
+
+.premium-line h2 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.premium-line h3 {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #c7c7c7;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.premium-list {
+    margin-bottom: 30px;
+}
+
+.premium-list h2 {
+    font-size: 21px;
+    font-family: "Montserrat";
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.premium-list p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(36, 36, 36);
+    text-align: left;
+    color: #7e7e7e;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.premium-point {
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: left;
+    color: #7e7e7e;
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.premium-point::before {
+    content: "—";
+    padding-right: 5px;
+    margin: 0;
+    margin-left: -40px;
+}
+
+.premium-border {
+    border-bottom: 1px solid #bebebe;
+}
+
+.premium-line .circle {
+    margin-top: 40px;
+}
+
+.premium-button {
+    border-radius: 20px;
+    background-color: #b88b58;
+    border: none;
+    width: 194px;
+    height: 45px;
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.premium-button:hover {
+    background-color: #000;
+    border: none;
 }
