@@ -1201,6 +1201,9 @@ header nav ul li a {
     padding: 0;
 }
 
-.share-icons fa {
-    display: inline;
+.share-icons .fa-twitter {
+    border-radius: 50%;
+    background-color: rgb(55, 55, 55);
+    width: 33px;
+    height: 33px;
 }
