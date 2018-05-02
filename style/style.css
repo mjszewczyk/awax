@@ -126,7 +126,8 @@ header nav ul li a {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    padding-top: 200px;
+    padding: 0;
+    padding-top: 120px;
     margin: 0;
 }
 
@@ -136,7 +137,7 @@ header nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    color: #97754e;
+    color: #b88b58;
     margin: 0;
     padding: 0;
 }
@@ -163,7 +164,6 @@ header nav ul li a {
     background-color: rgb(184, 139, 88);
     font-size: 12px;
     font-family: "Montserrat";
-    color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -177,7 +177,7 @@ header nav ul li a {
 }
 
 .circle {
-    margin-top: 220px;
+    margin-top: 160px;
     padding-bottom: 40px;
     text-align: center;
 }
@@ -224,7 +224,7 @@ header nav ul li a {
     position: absolute;
     background-color: #b88b58;
     left: 1190px;
-    top: 855px;
+    top: 720px;
 }
 
 .circle-call:hover {
@@ -371,6 +371,7 @@ header nav ul li a {
     color: rgb(36, 36, 36);
     padding-left: 10px;
     margin: 0;
+    width: 98%;
 }
 
 .about-us button {
@@ -698,7 +699,7 @@ header nav ul li a {
     text-transform: uppercase;
     text-align: center;
     margin: 0;
-    margin-top: 40px;
+    margin-top: 60px;
     padding: 0;
 }
 
@@ -738,7 +739,7 @@ header nav ul li a {
 .teams {
     background-color: #fff;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     width: 80%;
 }
 
@@ -1182,28 +1183,65 @@ header nav ul li a {
 
 .share-image {
     margin-top: 20px;
+    margin-left: 300px;
 }
 
 .share-image p {
     display: inline;
-    position: absolute;
-    right: 778px;
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(174, 174, 174);
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;
+    position: absolute;
+    margin-top: 3px;
 }
 
-.share-image img {
-    margin: 10px 340px;
+.share-social {
+    width: 33px;
+    height: 33px;
+    border: 0;
+    color: #fff;
+    margin: 1px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.share-icons {
+    margin: 60px 0;
     padding: 0;
 }
 
-.share-icons .fa-twitter {
-    border-radius: 50%;
-    background-color: rgb(55, 55, 55);
-    width: 33px;
-    height: 33px;
+.twitter {
+    background-color: #34c5f0;
+    display: block;
+}
+
+.linkedin {
+    background-color: #127cb4;
+}
+
+.facebook {
+    background-color: #336297;
+}
+
+.google-plus {
+    background-color: #e74237;
+}
+
+.pinterest {
+    background-color: #b71c29;
+}
+
+.share-icons p {
+    display: inline;
+    font-size: 10px;
+    font-family: "Montserrat";
+    color: rgb(174, 174, 174);
+    font-weight: bold;
+    text-transform: uppercase;
 }
