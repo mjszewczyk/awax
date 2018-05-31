@@ -26,6 +26,8 @@ header {
     background: #000;
 }
 
+
+/*
 .burger {
     display: none;
     position: absolute;
@@ -57,8 +59,9 @@ header {
 .burger div:nth-child(4) {
     bottom: 0;
 }
+*/
 
-header > nav img {
+nav img {
     padding: 20px 60px;
 }
 
@@ -170,6 +173,7 @@ header nav ul li a {
     margin-top: 50px;
     padding: 0;
     transition: .5s;
+    cursor: pointer;
 }
 
 .headerButton:hover {
@@ -388,6 +392,7 @@ header nav ul li a {
     text-align: center;
     margin: 20px 0 0 10px;
     transition: .5s;
+    cursor: pointer;
 }
 
 .about-us button:hover {
@@ -677,6 +682,7 @@ header nav ul li a {
     margin-bottom: 50px;
     padding: 0;
     transition: .5s;
+    cursor: pointer;
 }
 
 .gallery-button:hover {
@@ -982,6 +988,7 @@ header nav ul li a {
     width: 129px;
     height: 45px;
     padding: 0;
+    cursor: pointer;
 }
 
 .price-button:hover {
@@ -1097,6 +1104,7 @@ header nav ul li a {
     display: block;
     margin: 0 auto;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .premium-button:hover {
@@ -1225,6 +1233,11 @@ header nav ul li a {
     margin-right: 10px;
 }
 
+.share-social:hover {
+    color: #fff;
+    background-color: #000;
+}
+
 .twitter {
     background-color: #34c5f0;
 }
@@ -1252,4 +1265,127 @@ header nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 35px;
+}
+
+.contact-us {
+    background-color: #f7f7f7;
+    padding-bottom: 50px;
+}
+
+.contact-title {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.contact-subtitle {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(174, 174, 174);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.contact-button {
+    border-radius: 20px;
+    width: 194px;
+    height: 45px;
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #b88b58;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    transform: scale(1.2);
+}
+
+.contact-element {
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: rgb(158, 158, 158);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#name {
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    font-size: 13px;
+    line-height: 25px;
+    color: #242424;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #aeaeae;
+    padding: 15px 0;
+    margin-left: 340px;
+    margin-top: 50px;
+}
+
+#mail {
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    font-size: 13px;
+    line-height: 25px;
+    color: #242424;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #aeaeae;
+    padding: 15px 0;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+#subject {
+    font-family: 'Montserrat', sans-serif;
+    width: 43%;
+    font-size: 13px;
+    line-height: 25px;
+    color: #242424;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #aeaeae;
+    padding: 15px 0;
+    margin-left: 340px;
+    margin-top: 50px;
+}
+
+#msg {
+    font-family: 'Montserrat', sans-serif;
+    width: 43%;
+    font-size: 13px;
+    line-height: 25px;
+    color: #242424;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #aeaeae;
+    padding: 15px 0;
+    margin-left: 340px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#name:focus,
+#mail:focus,
+#subject:focus,
+#msg:focus {
+    outline: none;
+    border-color: #b88b58;
 }
