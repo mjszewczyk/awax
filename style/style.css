@@ -1389,3 +1389,41 @@ header nav ul li a {
     outline: none;
     border-color: #b88b58;
 }
+
+.section-address {
+    background-image: url("../images/Map.png");
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.address-info {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(126, 126, 126);
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.fa--icon {
+    border-radius: 50%;
+    background-color: #aeaeae;
+    padding-top: 8px;
+    width: 33px;
+    height: 33px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.adress-element {
+    margin-left: 100px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 540px;
+    height: 343px;
+}
