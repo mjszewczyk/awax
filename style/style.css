@@ -778,7 +778,7 @@ header nav ul li a {
     margin-bottom: 40px;
 }
 
-.fa:hover {
+.fa-icon:hover {
     background-color: #b88b58;
 }
 
@@ -1182,8 +1182,9 @@ header nav ul li a {
 }
 
 .share-image {
-    margin-top: 20px;
-    margin-left: 300px;
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-bottom: 30px;
 }
 
 .share-image p {
@@ -1201,24 +1202,31 @@ header nav ul li a {
     margin-top: 3px;
 }
 
+.share-icons {
+    width: 80px;
+    display: inline-block;
+}
+
+.fa-icons {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
 .share-social {
     width: 33px;
     height: 33px;
     border: 0;
     color: #fff;
-    margin: 1px;
+    margin-top: 25px;
     cursor: pointer;
     border-radius: 50%;
-}
-
-.share-icons {
-    margin: 60px 0;
     padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .twitter {
     background-color: #34c5f0;
-    display: block;
 }
 
 .linkedin {
@@ -1237,11 +1245,11 @@ header nav ul li a {
     background-color: #b71c29;
 }
 
-.share-icons p {
-    display: inline;
+.social-number {
     font-size: 10px;
     font-family: "Montserrat";
     color: rgb(174, 174, 174);
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: 35px;
 }
